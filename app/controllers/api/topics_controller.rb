@@ -57,4 +57,5 @@ class Api::TopicsController < ApplicationController
     def topics_params
       params.require(:topic).permit(:title, :body)
     end
+  end
 end
