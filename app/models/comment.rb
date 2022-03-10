@@ -7,4 +7,6 @@ class Comment < ApplicationRecord
   def check_author
     if self.author.blank?
       self.author = 'anon'
+    end
+  end
 end
